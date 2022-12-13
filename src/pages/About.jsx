@@ -1,5 +1,5 @@
 import React from "react";
-import { about, css, html, js, node, react, tailwind } from "../assets/img";
+import { profile } from "../assets/img";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
@@ -14,7 +14,7 @@ const About = () => {
           <div className="flex flex-col md:flex-row max-w-[800px] w-full h-[700px] md:h-[500px] bg-zinc-50 mx-auto justify-between overflow-hidden rounded-lg">
             <div className="bg-black flex-1 h-[50%] md:h-full w-full overflow-hidden relative">
               <img
-                src={about}
+                src={profile}
                 alt="image"
                 className="absolute top-[-50px] md:top-0 bg-cover md:h-[500px] w-full"
               />
