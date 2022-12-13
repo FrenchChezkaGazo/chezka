@@ -67,7 +67,7 @@ const Navbar = () => {
             isDynamic={true}
             className="link"
           >
-            resume
+            skills
           </Link>
           <Link
             activeClass="active"
