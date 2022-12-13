@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="mx-auto max-w-[1200px] w-full h-full flex justify-between items-center px-4 md:px-[30px]">
         <div className="w-full mx-auto border-red-100 rounded-[50px] md:flex-col lg:flex-row flex justify-center md:justify-between items-center px-[30px] py-[50px] lg:p-[60px] text-center lg:text-left">
           <div className="">
-            <h1 className="text-[36px] md:text-[50px] lg:text-[90px] text-primary">
+            <h1 className="text-[40px] md:text-[50px] lg:text-[90px] text-primary">
               <span className="font-qwitcher">
                 <Typewriter
                   words={["I'm French Chezka Gazo"]}
