@@ -1,60 +1,33 @@
 import React from "react";
 import { FaBook, FaCalendarDay } from "react-icons/fa";
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 function Resume() {
   return (
-    <div className="w-full bg-bgColor p-[15px] mb-12" name="resume">
-      <div className="max-w-[1200px] mx-auto w-full h-full gap-2">
-        <h1 className="text-primary text-[32px] text-center mb-5">RESUME</h1>
-        <div className="w-full flex justify-center items-center mx-auto">
-          <div className="bg-black rounded-[35px] py-8 mx-auto flex flex-col text-center items-start justify-center px-[45px] bg-opacity-30  text-[22px] space-y-9">
-            <div className="flex justify-center items-center">
-              <span className="justify-self-end mr-2">
-                <FaCalendarDay />
-              </span>
-              <span className="mr-9">2008 - 2015</span>
-              <span className="justify-self-start">
-                Quezon Elementary School
-                <br />
-                Quezon, Bulan Sorsogon
-              </span>
+    <div className="w-full bg-bgColor p-[15px] mb-12" name="skills">
+      <div className="w-full flex flex-col justify-center items-center">
+        <div className="text-center space-y-[20px]">
+          <h1 className="text-primary text-[32px]">SKILLS</h1>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center w-full gap-[50px] py-[20px] max-w-[1000px]">
+          <div className="flex flex-col justify-center items-center gap-3">
+            <div style={{ width: 200, height: 200 }}>
+              <CircularProgressbar value={15} text={"15%"} />
             </div>
-
-            <div className="flex justify-center items-center">
-              <span className="justify-self-end mr-2">
-                <FaCalendarDay />
-              </span>
-              <span className="mr-9">2017 - 2018</span>
-              <span className="justify-self-start ">
-                Quezon National High School
-                <br />
-                Junior High School
-              </span>
+            <p>HTML</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-3">
+            <div style={{ width: 200, height: 200 }}>
+              <CircularProgressbar value={25} text={"25%"} />
             </div>
-
-            <div className="flex justify-center items-center">
-              <span className="justify-self-end mr-2">
-                <FaCalendarDay />
-              </span>
-              <span className="mr-9">2019 - 2020</span>
-              <span className="justify-self-start">
-                Quezon National High School
-                <br />
-                Senior High School
-              </span>
+            <p>JAVASCRIPT</p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-3">
+            <div style={{ width: 200, height: 200 }}>
+              <CircularProgressbar value={50} text={"50%"} />
             </div>
-
-            <div className="flex justify-center items-center">
-              <span className="justify-self-end mr-2">
-                <FaCalendarDay />
-              </span>
-              <span className="mr-[78px]">Present</span>
-              <span className="justify-self-start">
-                Sorsogon State University
-                <br />
-                Bulan, Sorsogon
-              </span>
-            </div>
+            <p>JAVA</p>
           </div>
         </div>
       </div>

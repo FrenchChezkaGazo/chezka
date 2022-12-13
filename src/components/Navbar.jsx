@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const addShadow = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 550) {
       setShadow(true);
     } else setShadow(false);
   };
@@ -21,8 +21,8 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed z-10 w-full h-20 backdrop-blur-[16px] bg-[rgba(236, 240, 243, 1)]"
-          : "fixed bg-bgColor w-full h-20 z-50"
+          ? "fixed z-10 w-full h-20 backdrop-blur-[16px] bg-[rgba(236, 240, 243, 1)] text-white"
+          : "fixed bg-[#ECF0F3] bg-opacity-70 w-full h-20 z-50 text-black"
       }
     >
       <div className="flex max-w-[1200px] w-full h-full mx-auto px-[15px] md:px-[30px] lg:px-10 justify-end items-center">
@@ -58,7 +58,7 @@ const Navbar = () => {
           </Link>
           <Link
             activeClass="active"
-            to="resume"
+            to="skills"
             spy={true}
             smooth={true}
             offset={-65}
@@ -117,11 +117,11 @@ const Navbar = () => {
               className="w-9 h-9 rounded-full flex justify-center items-center group hover:scale-105"
               onClick={menuClick}
             >
-              <FaTimes size={22} className="group-hover:scale-105" />
+              <FaTimes size={22} className="group-hover:scale-105 text-white" />
             </div>
           </div>
 
-          <ul className="flex flex-col space-y-10 uppercase text-[18px] justify-center items-center my-auto">
+          <ul className="flex flex-col space-y-10 uppercase text-[18px] justify-center items-center my-auto text-white">
             <Link
               to="home"
               spy={true}
@@ -148,7 +148,7 @@ const Navbar = () => {
               about
             </Link>
             <Link
-              to="resume"
+              to="skills"
               spy={true}
               smooth={true}
               offset={-70}
@@ -158,7 +158,7 @@ const Navbar = () => {
               className="link"
               onClick={menuClick}
             >
-              resume
+              skills
             </Link>
             <Link
               to="projects"

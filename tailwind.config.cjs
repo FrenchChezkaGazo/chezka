@@ -10,7 +10,11 @@ module.exports = {
       },
       fontFamily: {
         outfit: "Outfit, sans-serif",
-        aurore: "La Belle Aurore, sans-serif",
+        qwitcher: "Qwitcher Grypen, sans-serif",
+      },
+      backgroundImage: {
+        bgImg: "url('/src/assets/img/bgImg.jpg')",
+        "footer-texture": "url('/img/footer-texture.png')",
       },
     },
   },
