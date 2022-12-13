@@ -14,7 +14,7 @@ const Projects = () => {
         <Project
           title="Note Taking App"
           alt="image"
-          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uAHgVnkYQcBxHF_9wOFPzYNcQSThcOKuPXPkDRzbW5VgcvRzDc03kL3jbUMIglVTUq4&usqp=CAU"
+          image="https://images.ctfassets.net/lzny33ho1g45/5iJ10OKtmYa4BZpYvhb2xw/e890aa9115b53ef2d41c9135902285a2/Best_note_taking_apps.jpg?w=1520&fm=jpg&q=30&fit=thumb&h=760"
         />
         <Project
           title="Weather App"
@@ -24,12 +24,12 @@ const Projects = () => {
         <Project
           title="Chat App"
           alt="image"
-          image="https://i.pinimg.com/736x/2b/07/98/2b07985d0825d237b00df6e94b356662.jpg"
+          image="https://res.cloudinary.com/smartsupp/image/upload/w_1200,h_680,c_fill,q_auto,f_auto/v0/upload/mig_gy5unxi4_smartsupp-mobile-app-cover2x.png"
         />
         <Project
           title="Portfolio"
           alt="image"
-          image="https://mir-s3-cdn-cf.behance.net/projects/404/fe5409143224419.Y3JvcCw1NzUzLDQ1MDAsMTEyNSww.png"
+          image="https://publuu.com/wp-content/uploads/2021/02/to.jpg"
         />
       </div>
     </div>
