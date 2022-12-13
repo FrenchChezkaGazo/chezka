@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBook, FaCalendarDay } from "react-icons/fa";
-import { CircularProgressbar } from "react-circular-progressbar";
+import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
 function Resume() {
@@ -13,25 +13,53 @@ function Resume() {
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center w-full gap-[50px] py-[20px] max-w-[1000px]">
           <div className="flex flex-col justify-center items-center gap-3">
             <div style={{ width: 200, height: 200 }}>
-              <CircularProgressbar value={85} text={"85%"} />
+              <CircularProgressbar
+                value={85}
+                text={"85%"}
+                styles={buildStyles({
+                  pathColor: "#ff914d",
+                  textColor: "white",
+                })}
+              />
             </div>
             <p>HTML</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
             <div style={{ width: 200, height: 200 }}>
-              <CircularProgressbar value={80} text={"80%"} />
+              <CircularProgressbar
+                value={80}
+                text={"80%"}
+                styles={buildStyles({
+                  pathColor: "#ff914d",
+                  textColor: "white",
+                })}
+              />
             </div>
             <p>CSS</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
             <div style={{ width: 200, height: 200 }}>
-              <CircularProgressbar value={80} text={"80%"} />
+              <CircularProgressbar
+                value={80}
+                text={"80%"}
+                styles={buildStyles({
+                  pathColor: "#ff914d",
+                  textColor: "white",
+                })}
+              />
             </div>
             <p>JAVASCRIPT</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-3">
             <div style={{ width: 200, height: 200 }}>
-              <CircularProgressbar value={85} text={"85%"} />
+              <CircularProgressbar
+                value={85}
+                text={"85%"}
+                styles={buildStyles({
+                  pathColor: "#ff914d",
+                  textColor: "white",
+                })}
+              />
             </div>
             <p>JAVA</p>
           </div>

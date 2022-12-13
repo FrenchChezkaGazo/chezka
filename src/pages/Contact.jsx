@@ -16,16 +16,10 @@ function Contact() {
         <div className="flex gap-10 w-full">
           <div className="space-y-5 hidden lg:flex flex-col">
             <span className="flex gap-2 items-center text-[18px]">
-              <FaMapMarkerAlt /> Quezon, Bulan Sorsogon
+              <FaEnvelope /> frenchchezkag@gmail.com
             </span>
             <span className="flex gap-2 items-center text-[18px]">
-              <FaPhoneAlt /> +6391234567
-            </span>
-            <span className="flex gap-2 items-center text-[18px]">
-              <FaEnvelope /> jamelmahusay355@gmail.com
-            </span>
-            <span className="flex gap-2 items-center text-[18px]">
-              <FaFacebook /> Jamel Mahusay
+              <FaFacebook /> French Chezka Gazo
             </span>
           </div>
           <form action="" className="w-full space-y-5 text-white max-w-[800px]">
